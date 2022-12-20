@@ -1,0 +1,36 @@
+.body{
+    height:7842px;
+    background-image: url('../images/fon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header__container{
+    width: 79vw;
+    height: 10vh;
+    display: grid;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    padding-top:2vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30% 70%;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    font-size: 35px;
+}
+.header__container1{
+    width: 100%;
+    display: flex;
+    padding-left: 10vw;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+
+}
+
+.header__container1 a{
+
+    color:white;
+    text-decoration: none;
+}
