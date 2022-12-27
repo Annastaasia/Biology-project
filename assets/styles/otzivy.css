@@ -22,6 +22,7 @@
     border-radius: 15px;
 }
 .otzivy__container2{
+    margin-top: 7vh;
     padding-left: 2vw;
     display: grid;
     width: 100vw;
@@ -33,4 +34,7 @@
 }
 .otzivy__arrowimage1, .otzivy__arrowimage2{
     width: 50%;
+}
+.otzivy__arrowimage1:hover, .otzivy__arrowimage2:hover{
+    cursor: pointer;
 }
