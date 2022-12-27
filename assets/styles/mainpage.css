@@ -37,6 +37,7 @@
     text-align: center;
     color:white;
     font-size: 45px;
+    font-weight: 600;
 }
 .mainpage__container__h1 span{
     font-weight: 400;
@@ -56,6 +57,11 @@
     border-width:0;
 }
 .mainpage__container__button a{
+    color:white;
+    text-decoration: none;
+}
+
+.mainpage__container__button a:hover{
     color:white;
     text-decoration: none;
 }

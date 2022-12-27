@@ -1,13 +1,15 @@
 .otzivy{
-    padding-top: 360vh;
+    padding-top:10vh;
 }
 
 .otzivy__h2{
    padding-left: 43%;
     font-size: 45px;
+    font-weight: 600;
 }
 .otzivy__container{
     display: grid;
+    padding-top: 3vh;
     padding-left: 6.5vw;
     padding-right: 6.5vw;
     grid-template-rows:75vh;
