@@ -5,9 +5,17 @@
     border-radius: 50px;
 }
 
+.card3 {
+    margin-right: 3vw;
+}
+
+.card1 {
+    margin-left: 3vw;
+}
+
 
 .price {
-    margin-top: 280vh;
+    margin-top: 275vh;
 }
 
 .price__h2 {
@@ -26,12 +34,11 @@
 
 .price__h5 {
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .price__text {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1.5vw;
 }
 
@@ -43,7 +50,7 @@
     margin-right: 4vw;
     width: 13vw;
     height: 10vh;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 1.7vw;
     font-weight: 800;
 }
@@ -53,7 +60,7 @@
     text-decoration: none;
     width: 13vw;
     height: 10vh;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 1.7vw;
     font-weight: 800;
 }
@@ -64,7 +71,7 @@
     margin-left: 4vw;
     width: 13vw;
     height: 10vh;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 1.7vw;
     font-weight: 800;
 }
@@ -72,7 +79,7 @@
 .price__buttons {
     width: 13vw;
     height: 14vh;
-    font-family: 'Raleway', sans-serif;
+
     font-size: 1.7vw;
     font-weight: 800;
 }
