@@ -1,0 +1,84 @@
+.card-1,
+.card-2,
+.card-3 {
+    background-color: #AC98C6;
+    border-radius: 50px;
+}
+
+
+.price {
+    margin-top: 280vh;
+}
+
+.price__h2 {
+    width: 17vw;
+    margin-left: 41vw;
+    margin-bottom: 7vh;
+    padding-top: 0.1vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    background-color: #F389DB99;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.price__h5 {
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.price__text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5vw;
+}
+
+
+
+.price__button1 {
+    padding-top: 2vh;
+    text-decoration: none;
+    margin-right: 4vw;
+    width: 13vw;
+    height: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.price__button2 {
+    padding-top: 2vh;
+    text-decoration: none;
+    width: 13vw;
+    height: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.price__button3 {
+    padding-top: 2vh;
+    text-decoration: none;
+    margin-left: 4vw;
+    width: 13vw;
+    height: 10vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.price__buttons {
+    width: 13vw;
+    height: 14vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.price__button1:hover,
+.price__button2:hover,
+.price__button3:hover {
+    font-size: 1.9vw;
+}
