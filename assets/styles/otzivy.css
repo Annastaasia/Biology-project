@@ -1,0 +1,36 @@
+.otzivy{
+    padding-top: 360vh;
+}
+
+.otzivy__h2{
+   padding-left: 43%;
+    font-size: 45px;
+}
+.otzivy__container{
+    display: grid;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    grid-template-rows:75vh;
+    grid-template-columns: repeat(3, 25vw);
+    justify-content: center;
+    column-gap: 2vw;
+
+
+}
+.otzivy__img1, .otzivy__img2, .otzivy__img3{
+    width: 100%;
+    border-radius: 15px;
+}
+.otzivy__container2{
+    padding-left: 2vw;
+    display: grid;
+    width: 100vw;
+    height: 3vh;
+    grid-template-columns: 10vw 10vw;
+    grid-template-rows:3vh;
+    justify-content: center;
+    column-gap: 15vw;
+}
+.otzivy__arrowimage1, .otzivy__arrowimage2{
+    width: 50%;
+}
