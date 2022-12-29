@@ -39,4 +39,5 @@
 }
 .otzivy__arrowimage1:hover, .otzivy__arrowimage2:hover{
     cursor: pointer;
+    width: 55%;
 }
