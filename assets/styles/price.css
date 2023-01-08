@@ -15,21 +15,14 @@
 
 
 .price {
-    margin-top: 275vh;
+    margin-top: 163vh;
 }
 
 .price__h2 {
-    width: 17vw;
-    margin-left: 41vw;
-    margin-bottom: 7vh;
-    padding-top: 0.1vh;
-    font-family: 'Raleway', sans-serif;
+    padding-left: 43%;
+    font-size: 45px;
     font-weight: 600;
-    font-size: 55px;
-    text-align: center;
-    background-color: #F389DB99;
-    color: rgb(255, 255, 255);
-    border-radius: 50px;
+    margin-bottom: 5%;
 }
 
 .price__h5 {
