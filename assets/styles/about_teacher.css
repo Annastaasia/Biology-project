@@ -1,0 +1,35 @@
+.about_teacher {
+    padding: 10%;
+}
+
+.about_teacher h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+.about_teacher__text {
+    display: grid;
+    grid-template-columns: 10% 70%;
+    margin: 4%;
+}
+
+.about_teacher__text__DNA {
+    display: grid;
+    grid-column: 1/2;
+    row-gap: 1%;
+    margin-top: 3%;
+}
+
+.about_teacher__text__DNA img {
+    width: 60%;
+}
+
+.about_teacher__text__list {
+    margin-top: 1%;
+    display: grid;
+    grid-column: 2/3;
+    font-size: 35px;
+    grid-template-rows: repeat(5, 1fr);
+}
