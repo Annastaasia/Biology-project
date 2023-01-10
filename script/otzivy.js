@@ -4,7 +4,7 @@ const image1 = document.getElementById("otzivy1");
 const image2 = document.getElementById("otzivy2");
 const image3 = document.getElementById("otzivy3");
 
-const images = new Array('./assets/images/otzivy/1.jpg','./assets/images/otzivy/2.jpg','./assets/images/otzivy/3.jpg','./assets/images/otzivy/4.jpg', './assets/images/otzivy/5.jpg','./assets/images/otzivy/6.jpg','./assets/images/otzivy/7.jpg','./assets/images/otzivy/8.jpg','./assets/images/otzivy/9.jpg', './assets/images/otzivy/10.jpg');
+const images = new Array('./assets/images/otzivy/8.jpg','./assets/images/otzivy/9.jpg','./assets/images/otzivy/10.jpg','./assets/images/otzivy/1.jpg', './assets/images/otzivy/2.jpg','./assets/images/otzivy/3.jpg','./assets/images/otzivy/4.jpg','./assets/images/otzivy/5.jpg','./assets/images/otzivy/6.jpg', './assets/images/otzivy/7.jpg');
 
 
 function rightClick(){
