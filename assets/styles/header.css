@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 601px) {
 .header__container{
 
     height: 10vh;
@@ -48,4 +48,109 @@
 
     color:white;
     text-decoration: none;
+}
+.header__mobilecontainer{
+    display: none;
+}
+}
+@media screen and (max-width: 600px) {
+    .header__container {
+        display: none;
+    }
+
+    .header__menu {
+        width: 20vw;
+        height: 6vh;
+        margin-left: 2vw;
+        color:white;
+        font-size: 4vw;
+        font-weight: 600;
+        text-align: center;
+        justify-self: flex-end;
+
+    }
+
+
+    .header__mobilecontainer {
+        display: grid;
+        padding-top: 5vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: 100vw;
+        height: 20vh;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        
+
+    }
+
+    .header__logo_mobile {
+        justify-self: flex-start;
+        font-size: 3.8vw;
+        font-weight: 600;
+        color:white;
+    }
+
+ 
+    .header__mobilecontainer ul {
+
+        height: 40%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
+        right: 0;
+        background-color: #535998;
+        font-weight: 500;
+        font-size: 5.5vw;
+        border-radius: 30px 0px 30px 30px;
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        opacity: 0;
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    .link1 {
+        color: white;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .header__mobilecontainer ul li {
+        padding: 2vh;
+        list-style-type: none;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    .closebtn {
+        right: 10%;
+        font-size: 35px;
+        margin-left: 80%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .header a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .header__mobilecontainer ul {
+        color: white;
+    }
+
 }

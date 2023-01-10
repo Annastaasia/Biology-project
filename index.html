@@ -20,7 +20,7 @@
 
 <body class="body">
     <header class="header">
-        <div class="header__container">
+        <nav class="header__container">
             <div class="header__container___logo">Биология ЕГЭ и ОГЭ</div>
             <div class="header__container1">
                 <div class="header__container1___item2"><a href="#">О преподавателе</a></div>
@@ -28,7 +28,19 @@
                 <div class="header__container1___item4"><a href="#otzivy">Отзывы</a></div>
                 <div class="header__container1___item5"><a href="#">Контакты</a></div>
             </div>
-        </div>
+        </nav>
+        <nav class="header__mobilecontainer">
+            <div class="header__logo_mobile">Биология ЕГЭ и ОГЭ</div>
+            <div class="header__menu"><a href="#" class="link" onclick="openNav()">Меню</a></div>
+            <ul id="ul">
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+                    </a></li>
+                <li class="header__container1___item2"><a href="#" class="link1">О преподавателе</a></li>
+                <li class="header__container1___item3"><a href="#" class="link1">Цены</a></li>
+                <li  class="header__container1___item4"><a href="#" class="link1">Отзывы</a></li>
+                <li class="header__container1___item5"><a href="#" class="link1">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="mainpage">
@@ -197,6 +209,7 @@
     </footer>
     <script src="./script/otzivy.js"></script>
     <script src="./script/scroll.js"></script>
+    <script src="./script/menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
