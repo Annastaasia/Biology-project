@@ -53,6 +53,7 @@
     display: none;
 }
 }
+
 @media screen and (max-width: 600px) {
     .header__container {
         display: none;
@@ -63,10 +64,11 @@
         height: 6vh;
         margin-left: 2vw;
         color:white;
-        font-size: 4vw;
+        font-size: 3vw;
         font-weight: 600;
         text-align: center;
         justify-self: flex-end;
+        
 
     }
 
@@ -86,15 +88,16 @@
 
     .header__logo_mobile {
         justify-self: flex-start;
-        font-size: 3.8vw;
+        font-size: 3vw;
         font-weight: 600;
         color:white;
+        
     }
 
  
     .header__mobilecontainer ul {
 
-        height: 40%;
+        height: 50%;
         /* 100% Full-height */
         width: 0;
         /* 0 width - change this with JavaScript */
