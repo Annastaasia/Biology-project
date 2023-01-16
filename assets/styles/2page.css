@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: "page2__div1 page2__div2 page2__div3";
     grid-template-columns: 1fr 1.5fr 1fr;
-    padding-top: 25%;
+    padding-top: 16%;
     max-height: 110%;
 }
 

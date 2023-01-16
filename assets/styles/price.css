@@ -15,7 +15,7 @@
 
 
 .price {
-    margin-top: 163vh;
+    margin-top: 15vh;
 }
 
 .price__h2 {
@@ -81,4 +81,22 @@
 .price__button2:hover,
 .price__button3:hover {
     font-size: 1.9vw;
+}
+
+.price__img1 {
+
+    background-image: url("/assets/images/price/img1.png");
+
+    background-repeat: no-repeat;
+
+    height: 15rem;
+
+}
+
+.price__img1:hover {
+
+    background-image: url("/assets/images/price/img1-change.png");
+
+    background-repeat: no-repeat;
+
 }
