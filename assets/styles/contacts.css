@@ -1,0 +1,49 @@
+.contacts {
+    display: grid;
+    margin: 3%;
+}
+
+.contacts h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+.contacts__block {
+    display: grid; 
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr;
+    font-size: 35px;
+    color: white;
+}
+
+.contacts__block__tg {
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.contacts__block__youtube {
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.contacts__block__vk {
+    display: grid;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.contacts__block__icon {
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.contacts__block__photo {
+    display: grid;
+    grid-row: 1/5;
+    grid-column: 2/3;
+}
