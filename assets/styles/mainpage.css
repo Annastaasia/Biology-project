@@ -38,7 +38,7 @@
     grid-row:2/3;
     text-align: center;
     color:white;
-    font-size: 45px;
+    font-size: 2.27vw;
     font-weight: 600;
 }
 .mainpage__container__h1 span{
@@ -52,7 +52,7 @@
     width: 45%;
     height: 45%;
     background-color: #645B71;
-    font-size: 30px;
+    font-size: 2.27vw;
     font-weight: 800;
     color:white;
     border-radius: 50px;
@@ -60,7 +60,7 @@
 }
 
 .mainpage__container__button:hover{
-    font-size: 33px;
+    font-size:  2.5vw;
 }
 .mainpage__container__button a{
     color:white;
@@ -111,7 +111,7 @@
         grid-template-columns: 70% 30%;
         grid-template-rows: repeat(4,25%);
         text-align: center;
-        font-size: 12px;
+        font-size: 0.91vw;
     }
     .mobile_mainpage__container__imgdiv{
         grid-column: 1/2;
@@ -142,7 +142,7 @@
     .mobile_mainpage__container__h1{
         text-align: center;
         color:white;
-        font-size: 25px;
+        font-size:1.89vw;
         font-weight: 600;
         line-height: 10vw;
     }
@@ -155,7 +155,7 @@
         width: 40%;
         height: 65%;
         background-color: #645B71;
-        font-size: 20px;
+        font-size:  1.51vw;
         font-weight: 800;
         color:white;
         border-radius: 50px;
