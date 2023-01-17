@@ -1,5 +1,6 @@
 .about_teacher {
     padding: 10%;
+    max-height: 100%;
 }
 
 .about_teacher h2 {
@@ -30,6 +31,6 @@
     margin-top: 1%;
     display: grid;
     grid-column: 2/3;
-    font-size: 35px;
+    font-size: 2vw;
     grid-template-rows: repeat(5, 1fr);
 }
