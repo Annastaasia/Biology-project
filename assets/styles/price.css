@@ -15,7 +15,7 @@
 
 
 .price {
-    margin-top: 15vh;
+    margin-top: 25vh;
 }
 
 .price__h2 {
@@ -85,7 +85,7 @@
 
 .price__img1 {
 
-    background-image: url("/assets/images/price/img1.png");
+    background-image: url("../../assets/images/price/img1.png");
 
     background-repeat: no-repeat;
 
@@ -95,7 +95,7 @@
 
 .price__img1:hover {
 
-    background-image: url("/assets/images/price/img1-change.png");
+    background-image: url("../../assets/images/price/img1-change.png");
 
     background-repeat: no-repeat;
 
@@ -103,7 +103,7 @@
 
 .price__img2 {
 
-    background-image: url("/assets/images/price/img2.png");
+    background-image: url("../../assets/images/price/img2.png");
 
     background-repeat: no-repeat;
 
@@ -113,7 +113,7 @@
 
 .price__img2:hover {
 
-    background-image: url("/assets/images/price/img2-change.png");
+    background-image: url("../../assets/images/price/img2-change.png");
 
     background-repeat: no-repeat;
 
@@ -121,7 +121,7 @@
 
 .price__img3 {
 
-    background-image: url("/assets/images/price/img3.png");
+    background-image: url("../../assets/images/price/img3.png");
 
     background-repeat: no-repeat;
 
@@ -131,7 +131,7 @@
 
 .price__img3:hover {
 
-    background-image: url("/assets/images/price/img3-change.png");
+    background-image: url("../../assets/images/price/img3-change.png");
 
     background-repeat: no-repeat;
 
