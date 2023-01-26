@@ -65,3 +65,9 @@
     grid-column: 3/4;
     grid-row: 2/3;
 }
+
+@media screen and (max-width: 600px) {
+    .footer__container{
+        display: none;
+    }
+}

@@ -51,12 +51,17 @@
     }
     
     .mobile-otzivy__h2{
-       padding-left: 38%;
         font-size: 25px;
         font-weight: 600;
     }
-
-    .otzivy__carousel{
-        padding-top: 5vh;
-    }
+.mobile_otzivy{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otzivy__carousel{
+    margin-top: 5vh;
+}
+   
 }

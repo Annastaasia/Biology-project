@@ -64,7 +64,7 @@
         height: 6vh;
         margin-left: 2vw;
         color:white;
-        font-size: 3vw;
+        font-size: 4.5vw;
         font-weight: 600;
         text-align: center;
         justify-self: flex-end;
@@ -88,7 +88,7 @@
 
     .header__logo_mobile {
         justify-self: flex-start;
-        font-size: 3vw;
+        font-size: 4.5vw;
         font-weight: 600;
         color:white;
         
