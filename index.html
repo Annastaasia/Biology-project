@@ -1,86 +1,130 @@
-< !DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Биология с Еленой Шрамук</title>
-        <link rel="stylesheet" href="./assets/styles/normalize.css">
-        <link rel="stylesheet" href="./assets/styles/header.css">
-        <link rel="stylesheet" href="./assets/styles/mainpage.css">
-        <link rel="stylesheet" href="./assets/styles/price.css">
-        <link rel="stylesheet" href="./assets/styles/otzivy.css">
-        <link rel="stylesheet" href="./assets/styles/2page.css">
-        <link rel="stylesheet" href="./assets/styles/footer.css">
-        <link rel="stylesheet" href="./assets/styles/about_teacher.css">
-        <link rel="stylesheet" href="./assets/styles/resurs.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биология с Еленой Шрамук</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/mainpage.css">
+    <link rel="stylesheet" href="./assets/styles/price.css">
+    <link rel="stylesheet" href="./assets/styles/otzivy.css">
+    <link rel="stylesheet" href="./assets/styles/2page.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <link rel="stylesheet" href="./assets/styles/about_teacher.css">
+    <link rel="stylesheet" href="./assets/styles/resurs.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
 
-    <body class="body">
-        <header class="header">
-            <nav class="header__container">
-                <div class="header__container___logo">Биология ЕГЭ и ОГЭ</div>
-                <div class="header__container1">
-                    <div class="header__container1___item2"><a href="#about_teacher">О преподавателе</a></div>
-                    <div class="header__container1___item3"><a href="#price">Цены</a></div>
-                    <div class="header__container1___item4"><a href="#otzivy">Отзывы</a></div>
-                    <div class="header__container1___item5"><a href="#contacts">Контакты</a></div>
+<body class="body">
+    <header class="header">
+        <nav class="header__container">
+            <div class="header__container___logo">Биология ЕГЭ и ОГЭ</div>
+            <div class="header__container1">
+                <div class="header__container1___item2"><a href="#about_teacher">О преподавателе</a></div>
+                <div class="header__container1___item3"><a href="#price">Цены</a></div>
+                <div class="header__container1___item4"><a href="#otzivy">Отзывы</a></div>
+                <div class="header__container1___item5"><a href="#contacts">Контакты</a></div>
+            </div>
+        </nav>
+        <nav class="header__mobilecontainer">
+            <div class="header__logo_mobile">Биология ЕГЭ и ОГЭ</div>
+            <div class="header__menu"><a href="#" class="link" onclick="openNav()">Меню</a></div>
+            <ul id="ul">
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+                    </a></li>
+                <li class="header__container1___item2"><a href="#about_teacher" class="link1">О преподавателе</a>
+                </li>
+                <li class="header__container1___item3"><a href="#price" class="link1">Цены</a></li>
+                <li class="header__container1___item4"><a href="#otzivy" class="link1">Отзывы</a></li>
+                <li class="header__container1___item5"><a href="#contacts" class="link1">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="mainpage">
+            <div class="mainpage">
+                <div class="mainpage__container">
+                    <div class="mainpage__container__imgdiv"><img class="mainpage__container__img"
+                            src="./assets/images/mainpage/lena.png" alt="Лена"></div>
+                    <h1 class="mainpage__container__h1">Биология для будущих стобалльников<br><span>с Еленой
+                            Шрамук</span></h1><button class="mainpage__container__button"><a
+                            href=#>Записаться</a></button>
                 </div>
-            </nav>
-            <nav class="header__mobilecontainer">
-                <div class="header__logo_mobile">Биология ЕГЭ и ОГЭ</div>
-                <div class="header__menu"><a href="#" class="link" onclick="openNav()">Меню</a></div>
-                <ul id="ul">
-                    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
-                        </a></li>
-                    <li class="header__container1___item2"><a href="#about_teacher" class="link1">О преподавателе</a>
-                    </li>
-                    <li class="header__container1___item3"><a href="#price" class="link1">Цены</a></li>
-                    <li class="header__container1___item4"><a href="#otzivy" class="link1">Отзывы</a></li>
-                    <li class="header__container1___item5"><a href="#contacts" class="link1">Контакты</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="mainpage">
-                <div class="mainpage">
-                    <div class="mainpage__container">
-                        <div class="mainpage__container__imgdiv"><img class="mainpage__container__img"
-                                src="./assets/images/mainpage/lena.png" alt="Лена"></div>
-                        <h1 class="mainpage__container__h1">Биология для будущих стобалльников<br><span>с Еленой
-                                Шрамук</span></h1><button class="mainpage__container__button"><a
-                                href=#>Записаться</a></button>
-                    </div>
+            </div>
+            <div class="mobile_mainpage">
+                <div class="mobile_mainpage__container1">
+                    <h1 class="mobile_mainpage__container__h1">Биология для будущих стобалльников<br><span>с Еленой
+                            Шрамук</span></h1><button class="mobile_mainpage__container__button"><a
+                            href=#>Записаться</a></button>
                 </div>
-                <div class="mobile_mainpage">
-                    <div class="mobile_mainpage__container1">
-                        <h1 class="mobile_mainpage__container__h1">Биология для будущих стобалльников<br><span>с Еленой
-                                Шрамук</span></h1><button class="mobile_mainpage__container__button"><a
-                                href=#>Записаться</a></button>
-                    </div>
-                    <div class="mobile_mainpage__container2">
-                        <div class="mobile_mainpage__container__imgdiv"><img class="mobile_mainpage__container__img"
-                                src="./assets/images/mainpage/lena.png" alt="Лена"></div>
-                        <p class="mobile_mainpage__container__text1">занятия с крутым преподом</p>
-                        <p class="mobile_mainpage__container__text2">записи занятий сохраняются</p>
-                        <p class="mobile_mainpage__container__text3">24/7 поддержка в телеграм чате</p>
-                        <p class="mobile_mainpage__container__text4">онлайн ДЗ на удобной платформе</p>
-                    </div>
+                <div class="mobile_mainpage__container2">
+                    <div class="mobile_mainpage__container__imgdiv"><img class="mobile_mainpage__container__img"
+                            src="./assets/images/mainpage/lena.png" alt="Лена"></div>
+                    <p class="mobile_mainpage__container__text1">занятия с крутым преподом</p>
+                    <p class="mobile_mainpage__container__text2">записи занятий сохраняются</p>
+                    <p class="mobile_mainpage__container__text3">24/7 поддержка в телеграм чате</p>
+                    <p class="mobile_mainpage__container__text4">онлайн ДЗ на удобной платформе</p>
                 </div>
-            </section>
-            <section id="page2" class="page2">
-                <div class="page2__div1">
-                    <div class="page2__p1">
-                        <p>занятия с крутым </br>преподом</p>
-                    </div>
-                    <div class="page2__p2">
-                        <p>записи уроков </br>сохраняются</p>
-                    </div>
+            </div>
+        </section>
+        <section id="page2" class="page2">
+            <div class="page2__div1">
+                <div class="page2__p1">
+                    <p>занятия с крутым </br>преподом</p>
                 </div>
-                <div class="page2__div2">
+                <div class="page2__p2">
+                    <p>записи уроков </br>сохраняются</p>
+                </div>
+            </div>
+            <div class="page2__div2">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                    style=" max-width: 42rem;">
+                    <div class="carousel-indicators page2__carousel mb-0 top-100 p-4 "><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active bg-danger d-flex align-items-end" aria-current="true"
+                            aria-label="Slide 1"></button><button type="button "
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"
+                            aria-label="Slide 2"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"
+                            aria-label="Slide 3"></button><button type="button" class="bg-danger"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="bg-danger"
+                            aria-label="Slide 4"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="bg-danger"
+                            aria-label="Slide 5"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="bg-danger"
+                            aria-label="Slide 6"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="bg-danger"
+                            aria-label="Slide 7"></button></div>
+                    <div class="carousel-inner rounded-3">
+                        <div class="carousel-item active" data-bs-interval="2000"><img
+                                src="./assets/images/2page/img1.jpg" class="d-block w-100" alt="1"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/2page/img2.jpg"
+                                class="d-block w-100" alt="2"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/2page/img3.jpg"
+                                class="d-block w-100" alt="3"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/2page/img4.jpg"
+                                class="d-block w-100" alt="4"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/2page/img5.jpg"
+                                class="d-block w-100" alt="5"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/2page/img6.jpg"
+                                class="d-block w-100" alt="6"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/2page/img7.jpg"
+                                class="d-block w-100" alt="7"></div>
+                    </div><button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"><span
+                            class="carousel-control-prev-icon" aria-hidden="true"></span><span
+                            class="visually-hidden">Предыдущий</span></button><button class="carousel-control-next"
+                        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><span
+                            class="carousel-control-next-icon" aria-hidden="true"></span><span
+                            class="visually-hidden">Следующий</span></button>
+                </div>
+            </div>
+            <div class="page2__container_mobil">
+                <div class="page2__div2mobil">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
                         style=" max-width: 42rem;">
                         <div class="carousel-indicators page2__carousel mb-0 top-100 p-4 "><button type="button"
@@ -123,279 +167,232 @@
                                 class="visually-hidden">Следующий</span></button>
                     </div>
                 </div>
-                <div class="page2__container_mobil">
-                    <div class="page2__div2mobil">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
-                            style=" max-width: 42rem;">
-                            <div class="carousel-indicators page2__carousel mb-0 top-100 p-4 "><button type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active bg-danger d-flex align-items-end" aria-current="true"
-                                    aria-label="Slide 1"></button><button type="button "
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"
-                                    aria-label="Slide 2"></button><button type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"
-                                    aria-label="Slide 3"></button><button type="button" class="bg-danger"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="bg-danger"
-                                    aria-label="Slide 4"></button><button type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="bg-danger"
-                                    aria-label="Slide 5"></button><button type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="bg-danger"
-                                    aria-label="Slide 6"></button><button type="button"
-                                    data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="bg-danger"
-                                    aria-label="Slide 7"></button></div>
-                            <div class="carousel-inner rounded-3">
-                                <div class="carousel-item active" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img1.jpg" class="d-block w-100" alt="1"></div>
-                                <div class="carousel-item" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img2.jpg" class="d-block w-100" alt="2"></div>
-                                <div class="carousel-item" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img3.jpg" class="d-block w-100" alt="3"></div>
-                                <div class="carousel-item" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img4.jpg" class="d-block w-100" alt="4"></div>
-                                <div class="carousel-item" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img5.jpg" class="d-block w-100" alt="5"></div>
-                                <div class="carousel-item" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img6.jpg" class="d-block w-100" alt="6"></div>
-                                <div class="carousel-item" data-bs-interval="2000"><img
-                                        src="./assets/images/2page/img7.jpg" class="d-block w-100" alt="7"></div>
-                            </div><button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"><span
-                                    class="carousel-control-prev-icon" aria-hidden="true"></span><span
-                                    class="visually-hidden">Предыдущий</span></button><button
-                                class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                                data-bs-slide="next"><span class="carousel-control-next-icon"
-                                    aria-hidden="true"></span><span class="visually-hidden">Следующий</span></button>
-                        </div>
-                    </div>
+            </div>
+            <div class="page2__div3">
+                <div class="page2__p3">
+                    <p>24/7 поддержка </br>в телеграм чате</p>
                 </div>
-                <div class="page2__div3">
-                    <div class="page2__p3">
-                        <p>24/7 поддержка </br>в телеграм чате</p>
-                    </div>
-                    <div class="page2__p4">
-                        <p>онлайн ДЗ на </br>удобной платформе</p>
-                    </div>
-                </div>
-            </section>
-            <section class="about_teacher" id="about_teacher">
-                <h2>Информация о преподавателе</h2>
-                <div class="about_teacher__text">
-                    <div class="about_teacher__text__DNA">
-                        <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
-                        <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
-                        <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
-                        <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
-                        <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
-                    </div>
-                    <div class="about_teacher__text__list">
-                        <div>СПбГПМУ педиатрический факультет 6 курс</div>
-                        <div>Выпустила более 50 учеников</div>
-                        <div>ВСЕ ученики перешли порог</div>
-                        <div>Максимальный балл на ЕГЭ 96</div>
-                        <div>Ученики поступают на бюджет в МГУ,
-                            <br>РНИМУ Пирогова и в другие университеты
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="price" id="price">
-                <h2 class="price__h2">Цены</h2>
-                <div class="container-fluid price-card">
-                    <div class="d-flex row gx-5 justify-content-evenly text-center rounded-5"
-                        style=" --bs-gutter-x: 0rem;">
-                        <div class="card-1 card1 col-md-4 col-12 text-white mb-5 mt-1 pt-3 pb-2 "
-                            style="max-width: 18rem;">
-                            <h5 class="card-title price__h5 mt-3">Индивидуальное</br>занятие</h5>
-                            <div class="card-body">
-                                <div class="price__img1"></div>
-                                <p class="card-text price__text pt-4">3000 ₽</p>
-                            </div>
-                        </div>
-                        <div class="card-2 col-md-4 col-12  text-white mb-5 mt-1 pt-3 pb-1" style="max-width: 18rem;">
-                            <h5 class="card-title price__h5 mt-3">Мини-группа</br>ЕГЭ</h5>
-                            <div class="card-body  pt-3">
-                                <div class="price__img2"></div>
-                                <p class="card-text price__text pt-4">1500 ₽</p>
-                            </div>
-                        </div>
-                        <div class="card-3 card3 col-md-4 col-12  text-white mb-5 mt-1 pt-3 pb-1"
-                            style="max-width: 18rem;">
-                            <h5 class="card-title price__h5 mt-3">Макси-группа</br>ОГЭ</h5>
-                            <div class="card-body pt-3">
-                                <div class="price__img3"></div>
-                                <p class="card-text price__text pt-4">1200 ₽ </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid price__buttons">
-                    <div class="d-flex justify-content-evenly text-center mt-1"><a href="https://t.me/lena_shramuk"
-                            class="price__button1 btn-dark rounded-pill text-white" role="button"
-                            target="_blank">Записаться</a><a href="https://t.me/lena_shramuk"
-                            class="price__button2 btn-dark rounded-pill text-white" role="button"
-                            target="_blank">Записаться</a><a href="https://t.me/lena_shramuk"
-                            class="price__button3 btn-dark rounded-pill text-white" role="button"
-                            target="_blank">Записаться</a></div>
-                </div>
-            </section>
-            <section class="price__mobil" id="price__mobil">
-                <p class="price__h2mobil">Цены</p>
-                <div class="price-cardmobil__1"><img class="price-cardimg__1" src="./assets/images/price/img1-mobil.png"
-                        alt="card-1">
-                    <p class="price__h5mobil__1">Индивидуальное занятие</p>
-                    <p class="price__textmobil__1">3000 ₽</p><a href="https://t.me/lena_shramuk"
-                        class="price__buttonmobil__1 btn-dark rounded-pill text-white" role="button"
-                        target="_blank">Записаться</a>
-                </div>
-                <div class="price-cardmobil__2"><img class="price-cardimg__2" src="./assets/images/price/img2-mobil.png"
-                        alt="card-2">
-                    <p class="price__h5mobil__2">Мини-группа ЕГЭ</p>
-                    <p class="price__textmobil__2">1500 ₽</p><a href="https://t.me/lena_shramuk"
-                        class="price__buttonmobil__2 btn-dark rounded-pill text-white" role="button"
-                        target="_blank">Записаться</a>
-                </div>
-                <div class="price-cardmobil__3"><img class="price-cardimg__3" src="./assets/images/price/img3-mobil.png"
-                        alt="card-3">
-                    <p class="price__h5mobil__3">Макси-группа ОГЭ</p>
-                    <p class="price__textmobil__3">1200 ₽</p><a href="https://t.me/lena_shramuk"
-                        class="price__buttonmobil__3 btn-dark rounded-pill text-white" role="button"
-                        target="_blank">Записаться</a>
-                </div>
-            </section>
-            <section id="otzivy">
-                <div class="otzivy" id="otzivy">
-                    <h2 class="otzivy__h2">Отзывы</h2>
-                    <div class="otzivy__container">
-                        <div class="otzivy__div1"><img src="./assets/images/otzivy/8.jpg" alt="отзыв"
-                                class="otzivy__img1" id="otzivy1"></div>
-                        <div class="otzivy__div2"><img src="./assets/images/otzivy/9.jpg" alt="отзыв"
-                                class="otzivy__img2" id="otzivy2"></div>
-                        <div class="otzivy__div3"><img src="./assets/images/otzivy/10.jpg" alt="отзыв"
-                                class="otzivy__img3" id="otzivy3"></div>
-                    </div>
-                    <div class="otzivy__container2">
-                        <div><a><img src="./assets/images/otzivy/leftarrow.png" alt="стрелка влево"
-                                    class="otzivy__arrowimage1" onclick="leftClick()"></a></div>
-                        <div><a><img src="./assets/images/otzivy/rightarrow.png" alt="стрелка вправо"
-                                    class="otzivy__arrowimage2" onclick="rightClick()"></a></div>
-                    </div>
-                </div>
-                <div class="mobile_otzivy">
-                    <h2 class="mobile-otzivy__h2">Отзывы</h2>
-                    <div id="carouselExampleIndicators" class="carousel slide otzivy__carousel" data-bs-ride="carousel"
-                        style="max-width: 15rem; height:50vh;">
-                        <div class="carousel-indicators  mb-0 top-100 p-4 "><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active bg-danger d-flex align-items-end" aria-current="true"
-                                aria-label="Slide 1"></button><button type="button "
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"
-                                aria-label="Slide 2"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"
-                                aria-label="Slide 3"></button><button type="button" class="bg-danger"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="bg-danger"
-                                aria-label="Slide 4"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="bg-danger"
-                                aria-label="Slide 5"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="bg-danger"
-                                aria-label="Slide 6"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="bg-danger"
-                                aria-label="Slide 7"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" class="bg-danger"
-                                aria-label="Slide 8"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" class="bg-danger"
-                                aria-label="Slide 9"></button><button type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" class="bg-danger"
-                                aria-label="Slide 10"></button></div>
-                        <div class="carousel-inner rounded-3 ">
-                            <div class="carousel-item active" data-bs-interval="2000"><img
-                                    src="./assets/images/otzivy/8.jpg" class="d-block w-100" alt="1"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/9.jpg"
-                                    class="d-block w-100" alt="2"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/10.jpg"
-                                    class="d-block w-100" alt="3"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/1.jpg"
-                                    class="d-block w-100" alt="4"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/2.jpg"
-                                    class="d-block w-100" alt="5"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/3.jpg"
-                                    class="d-block w-100" alt="6"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/4.jpg"
-                                    class="d-block w-100" alt="7"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/5.jpg"
-                                    class="d-block w-100" alt="8"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/6.jpg"
-                                    class="d-block w-100" alt="9"></div>
-                            <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/7.jpg"
-                                    class="d-block w-100" alt="10"></div>
-                        </div><button class="carousel-control-prev" type="button"
-                            data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"><span
-                                class="carousel-control-prev-icon" aria-hidden="true"></span><span
-                                class="visually-hidden">Предыдущий</span></button><button class="carousel-control-next"
-                            type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><span
-                                class="carousel-control-next-icon" aria-hidden="true"></span><span
-                                class="visually-hidden">Следующий</span></button>
-                    </div>
-                </div>
-            </section>
-            <section class="resurs" id="resurs">
-                <h2>Ресурсы</h2>
-                <div class="resurs__block">
-                    <div class="resurs__block__tg"><img class="resurs__block__icon"
-                            src="./assets/images/contacts/icon_tg.png" alt="Иконка Телеграма">
-                        <div class="resurs__block__text"><a href="https://t.me/elena_shramuk">Топовый </a>
-                            <p class="resurs__block__p">телеграм</p>6000+
-                        </div>
-                    </div>
-                    <div class="resurs__block__youtube"><img class="resurs__block__icon"
-                            src="./assets/images/contacts/icon_youtube.png" alt="Иконка Ютуба">
-                        <div class="resurs__block__text"><a href="https://www.youtube.com/@elena_shramuk">Божественный
-                            </a>
-                            <p class="resurs__block__p">ютуб канал</p> 2000+
-                        </div>
-                    </div>
-                    <div class="resurs__block__tiktok"><img class="resurs__block__icon"
-                            src="./assets/images/contacts/icon_tiktok.png" alt="Иконка Тиктока">
-                        <div class="resurs__block__text"><a href="https://www.tiktok.com/@lena_shramuk">Биологический
-                            </a>
-                            <p class="resurs__block__p">тик-ток </p>на 84к
-                        </div>
-                    </div>
-                    <div class="resurs__block__vk"><img class="resurs__block__icon"
-                            src="./assets/images/contacts/icon_vk.png" alt="Иконка Вконтакте">
-                        <div class="resurs__block__text"><a href="https://vk.com/elena_biologia">Классный </a>
-                            <p class="resurs__block__p">паблик</p>
-                            ВК
-                        </div>
-                    </div>
-                    <div class="resurs__block__photo"><img src="./assets/images/contacts/photo.png" alt="Фото Лены">
-                    </div>
-                    <!--div class="contacts__block__icon__wa"><a href="https://wa.me/79992059764"><img
-                                src="./assets/images/contacts/icon_wa.png" alt="Иконка Ватсапа"></a></div-->
-                    <!--div class="contacts__block__icon__vk"><a href="https://vk.com/id108311971"><img
-                                    src="./assets/images/contacts/icon_vk.png" alt="Иконка Вконтакте"></a></div-->
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="footer__container">
-                <div class="footer__container1">
-                    <p class="footer__item1">Биология<br>с Еленой Шрамук</p><a href="#mainpage"
-                        class="footer__item2">Главная</a><a href="#about_teacher" class="footer__item3">О
-                        преподавателе</a><a href="#price" class="footer__item4">Цены</a><a href="#otzivy"
-                        class="footer__item5">Отзывы</a><a href="#contacts" class="footer__item6">Контакты</a>
-                </div>
-                <div class="footer__container2">
-                    <p>Peony</p>
-                    <p>© Все права защищены.</p>
+                <div class="page2__p4">
+                    <p>онлайн ДЗ на </br>удобной платформе</p>
                 </div>
             </div>
-        </footer>
-        <script src="./script/otzivy.js"></script>
-        <script src="./script/scroll.js"></script>
-        <script src="./script/menu.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
-    </body>
+        </section>
+        <section class="about_teacher" id="about_teacher">
+            <h2>Информация о преподавателе</h2>
+            <div class="about_teacher__text">
+                <div class="about_teacher__text__DNA">
+                    <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
+                    <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
+                    <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
+                    <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
+                    <div><img src="./assets/images/about_teacher/DNA.png" alt="DNA"></div>
+                </div>
+                <div class="about_teacher__text__list">
+                    <div>СПбГПМУ педиатрический факультет 6 курс</div>
+                    <div>Выпустила более 50 учеников</div>
+                    <div>ВСЕ ученики перешли порог</div>
+                    <div>Максимальный балл на ЕГЭ 96</div>
+                    <div>Ученики поступают на бюджет в МГУ,
+                        <br>РНИМУ Пирогова и в другие университеты
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="price" id="price">
+            <h2 class="price__h2">Цены</h2>
+            <div class="container-fluid price-card">
+                <div class="d-flex row gx-5 justify-content-evenly text-center rounded-5" style=" --bs-gutter-x: 0rem;">
+                    <div class="card-1 card1 col-md-4 col-12 text-white mb-5 mt-1 pt-3 pb-2 " style="max-width: 18rem;">
+                        <h5 class="card-title price__h5 mt-3">Индивидуальное</br>занятие</h5>
+                        <div class="card-body">
+                            <div class="price__img1"></div>
+                            <p class="card-text price__text pt-4">3000 ₽</p>
+                        </div>
+                    </div>
+                    <div class="card-2 col-md-4 col-12  text-white mb-5 mt-1 pt-3 pb-1" style="max-width: 18rem;">
+                        <h5 class="card-title price__h5 mt-3">Мини-группа</br>ЕГЭ</h5>
+                        <div class="card-body  pt-3">
+                            <div class="price__img2"></div>
+                            <p class="card-text price__text pt-4">1500 ₽</p>
+                        </div>
+                    </div>
+                    <div class="card-3 card3 col-md-4 col-12  text-white mb-5 mt-1 pt-3 pb-1" style="max-width: 18rem;">
+                        <h5 class="card-title price__h5 mt-3">Макси-группа</br>ОГЭ</h5>
+                        <div class="card-body pt-3">
+                            <div class="price__img3"></div>
+                            <p class="card-text price__text pt-4">1200 ₽ </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid price__buttons">
+                <div class="d-flex justify-content-evenly text-center mt-1"><a href="https://t.me/lena_shramuk"
+                        class="price__button1 btn-dark rounded-pill text-white" role="button"
+                        target="_blank">Записаться</a><a href="https://t.me/lena_shramuk"
+                        class="price__button2 btn-dark rounded-pill text-white" role="button"
+                        target="_blank">Записаться</a><a href="https://t.me/lena_shramuk"
+                        class="price__button3 btn-dark rounded-pill text-white" role="button"
+                        target="_blank">Записаться</a></div>
+            </div>
+        </section>
+        <section class="price__mobil" id="price__mobil">
+            <p class="price__h2mobil">Цены</p>
+            <div class="price-cardmobil__1"><img class="price-cardimg__1" src="./assets/images/price/img1-mobil.png"
+                    alt="card-1">
+                <p class="price__h5mobil__1">Индивидуальное занятие</p>
+                <p class="price__textmobil__1">3000 ₽</p><a href="https://t.me/lena_shramuk"
+                    class="price__buttonmobil__1 btn-dark rounded-pill text-white" role="button"
+                    target="_blank">Записаться</a>
+            </div>
+            <div class="price-cardmobil__2"><img class="price-cardimg__2" src="./assets/images/price/img2-mobil.png"
+                    alt="card-2">
+                <p class="price__h5mobil__2">Мини-группа ЕГЭ</p>
+                <p class="price__textmobil__2">1500 ₽</p><a href="https://t.me/lena_shramuk"
+                    class="price__buttonmobil__2 btn-dark rounded-pill text-white" role="button"
+                    target="_blank">Записаться</a>
+            </div>
+            <div class="price-cardmobil__3"><img class="price-cardimg__3" src="./assets/images/price/img3-mobil.png"
+                    alt="card-3">
+                <p class="price__h5mobil__3">Макси-группа ОГЭ</p>
+                <p class="price__textmobil__3">1200 ₽</p><a href="https://t.me/lena_shramuk"
+                    class="price__buttonmobil__3 btn-dark rounded-pill text-white" role="button"
+                    target="_blank">Записаться</a>
+            </div>
+        </section>
+        <section id="otzivy">
+            <div class="otzivy" id="otzivy">
+                <h2 class="otzivy__h2">Отзывы</h2>
+                <div class="otzivy__container">
+                    <div class="otzivy__div1"><img src="./assets/images/otzivy/8.jpg" alt="отзыв" class="otzivy__img1"
+                            id="otzivy1"></div>
+                    <div class="otzivy__div2"><img src="./assets/images/otzivy/9.jpg" alt="отзыв" class="otzivy__img2"
+                            id="otzivy2"></div>
+                    <div class="otzivy__div3"><img src="./assets/images/otzivy/10.jpg" alt="отзыв" class="otzivy__img3"
+                            id="otzivy3"></div>
+                </div>
+                <div class="otzivy__container2">
+                    <div><a><img src="./assets/images/otzivy/leftarrow.png" alt="стрелка влево"
+                                class="otzivy__arrowimage1" onclick="leftClick()"></a></div>
+                    <div><a><img src="./assets/images/otzivy/rightarrow.png" alt="стрелка вправо"
+                                class="otzivy__arrowimage2" onclick="rightClick()"></a></div>
+                </div>
+            </div>
+            <div class="mobile_otzivy">
+                <h2 class="mobile-otzivy__h2">Отзывы</h2>
+                <div id="carouselExampleIndicators" class="carousel slide otzivy__carousel" data-bs-ride="carousel"
+                    style="max-width: 15rem; height:50vh;">
+                    <div class="carousel-indicators  mb-0 top-100 p-4 "><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active bg-danger d-flex align-items-end" aria-current="true"
+                            aria-label="Slide 1"></button><button type="button "
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-danger"
+                            aria-label="Slide 2"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-danger"
+                            aria-label="Slide 3"></button><button type="button" class="bg-danger"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="bg-danger"
+                            aria-label="Slide 4"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="bg-danger"
+                            aria-label="Slide 5"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="bg-danger"
+                            aria-label="Slide 6"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="bg-danger"
+                            aria-label="Slide 7"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" class="bg-danger"
+                            aria-label="Slide 8"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" class="bg-danger"
+                            aria-label="Slide 9"></button><button type="button"
+                            data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" class="bg-danger"
+                            aria-label="Slide 10"></button></div>
+                    <div class="carousel-inner rounded-3 ">
+                        <div class="carousel-item active" data-bs-interval="2000"><img
+                                src="./assets/images/otzivy/8.jpg" class="d-block w-100" alt="1"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/9.jpg"
+                                class="d-block w-100" alt="2"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/10.jpg"
+                                class="d-block w-100" alt="3"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/1.jpg"
+                                class="d-block w-100" alt="4"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/2.jpg"
+                                class="d-block w-100" alt="5"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/3.jpg"
+                                class="d-block w-100" alt="6"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/4.jpg"
+                                class="d-block w-100" alt="7"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/5.jpg"
+                                class="d-block w-100" alt="8"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/6.jpg"
+                                class="d-block w-100" alt="9"></div>
+                        <div class="carousel-item" data-bs-interval="2000"><img src="./assets/images/otzivy/7.jpg"
+                                class="d-block w-100" alt="10"></div>
+                    </div><button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"><span
+                            class="carousel-control-prev-icon" aria-hidden="true"></span><span
+                            class="visually-hidden">Предыдущий</span></button><button class="carousel-control-next"
+                        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><span
+                            class="carousel-control-next-icon" aria-hidden="true"></span><span
+                            class="visually-hidden">Следующий</span></button>
+                </div>
+            </div>
+        </section>
+        <section class="resurs" id="resurs">
+            <h2>Ресурсы</h2>
+            <div class="resurs__block">
+                <div class="resurs__block__tg"><img class="resurs__block__icon"
+                        src="./assets/images/contacts/icon_tg.png" alt="Иконка Телеграма">
+                    <div class="resurs__block__text"><a href="https://t.me/elena_shramuk">Топовый </a>
+                        <p class="resurs__block__p">телеграм</p>6000+
+                    </div>
+                </div>
+                <div class="resurs__block__youtube"><img class="resurs__block__icon"
+                        src="./assets/images/contacts/icon_youtube.png" alt="Иконка Ютуба">
+                    <div class="resurs__block__text"><a href="https://www.youtube.com/@elena_shramuk">Божественный
+                        </a>
+                        <p class="resurs__block__p">ютуб канал</p> 2000+
+                    </div>
+                </div>
+                <div class="resurs__block__tiktok"><img class="resurs__block__icon"
+                        src="./assets/images/contacts/icon_tiktok.png" alt="Иконка Тиктока">
+                    <div class="resurs__block__text"><a href="https://www.tiktok.com/@lena_shramuk">Биологический
+                        </a>
+                        <p class="resurs__block__p">тик-ток </p>на 84к
+                    </div>
+                </div>
+                <div class="resurs__block__vk"><img class="resurs__block__icon"
+                        src="./assets/images/contacts/icon_vk.png" alt="Иконка Вконтакте">
+                    <div class="resurs__block__text"><a href="https://vk.com/elena_biologia">Классный </a>
+                        <p class="resurs__block__p">паблик</p>
+                        ВК
+                    </div>
+                </div>
+                <div class="resurs__block__photo"><img src="./assets/images/contacts/photo.png" alt="Фото Лены">
+                </div>
+                <!--div class="contacts__block__icon__wa"><a href="https://wa.me/79992059764"><img
+                                src="./assets/images/contacts/icon_wa.png" alt="Иконка Ватсапа"></a></div-->
+                <!--div class="contacts__block__icon__vk"><a href="https://vk.com/id108311971"><img
+                                    src="./assets/images/contacts/icon_vk.png" alt="Иконка Вконтакте"></a></div-->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="footer__container1">
+                <p class="footer__item1">Биология<br>с Еленой Шрамук</p><a href="#mainpage"
+                    class="footer__item2">Главная</a><a href="#about_teacher" class="footer__item3">О
+                    преподавателе</a><a href="#price" class="footer__item4">Цены</a><a href="#otzivy"
+                    class="footer__item5">Отзывы</a><a href="#contacts" class="footer__item6">Контакты</a>
+            </div>
+            <div class="footer__container2">
+                <p>Peony</p>
+                <p>© Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script/otzivy.js"></script>
+    <script src="./script/scroll.js"></script>
+    <script src="./script/menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
 
-    </html>
+</html>
