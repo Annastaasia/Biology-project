@@ -154,7 +154,9 @@
         display: none;
     }
 
-
+    .price__mobil{
+        padding-top: 5vh;
+    }
     .price__h2mobil {
         padding-left: 38%;
         font-size: 25px;
