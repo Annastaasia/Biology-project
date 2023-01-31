@@ -15,19 +15,23 @@
         margin-left: 3vw;
     }
 
-    .price{
-        padding-top: 10vh;
+    .price {
+        padding-top: 18vh;
+        max-height: 150vh;
+        max-width: 120vw;
     }
-  
+
     .price__h2 {
         padding-left: 43%;
         font-size: 45px;
         font-weight: 600;
-        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
-    .price-card{
-        padding-top: 10vh;
+
+    .price-card {
+        padding-top: 5vh;
     }
+
     .price__h5 {
         font-weight: 500;
         font-size: 1.8vw;
@@ -154,9 +158,10 @@
         display: none;
     }
 
-    .price__mobil{
+    .price__mobil {
         padding-top: 5vh;
     }
+
     .price__h2mobil {
         padding-left: 38%;
         font-size: 25px;
