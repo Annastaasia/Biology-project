@@ -15,18 +15,19 @@
         margin-left: 3vw;
     }
 
-
-    .price {
-        margin-top: 20vh;
+    .price{
+        padding-top: 10vh;
     }
-
+  
     .price__h2 {
         padding-left: 43%;
         font-size: 45px;
         font-weight: 600;
         margin-bottom: 5%;
     }
-
+    .price-card{
+        padding-top: 10vh;
+    }
     .price__h5 {
         font-weight: 500;
         font-size: 1.8vw;
