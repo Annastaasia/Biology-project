@@ -1,0 +1,37 @@
+@media screen and (min-width: 601px) {
+    .video{
+        width:100vw;
+        height:80vh;
+        padding-top:15vh;
+    }
+    .video__h2{
+        padding-left: 33%;
+         font-size: 45px;
+         font-weight: 600;
+     }
+
+     .video__container{
+    
+        padding-top: 10vh;
+        padding-left: 6.5vw;
+        padding-right: 6.5vw;
+        height:320px;
+        display: grid;
+       grid-template-rows: 100%;
+       grid-template-columns: 20% 60% 20%;
+       align-items: center;
+     }
+     .video__arrow_left, .video__arrow_right{
+       width:27%;
+       justify-self: center;
+     }
+     .video__arrow_left:hover, .video__arrow_right:hover{
+        width:30%;
+       
+      }
+ 
+  .video__item{
+    width:700px;
+    height:300px;
+  }
+}
