@@ -75,7 +75,8 @@
     }
 
     .otzivy__carousel {
-        margin-top: 5vh;
+        margin-top: 3vh;
+        height:42vh !important;
     }
 
 }

@@ -134,7 +134,7 @@
         font-weight: 600;
         color: white;
         margin: 3%;
-        padding-top: 6%;
+        padding-top: 10vh;
     }
 
     .resurs__block__mobil {
@@ -237,6 +237,7 @@
         row-gap: 20%;
         justify-content: start;
         margin: 5%;
+        padding-bottom:5vh;
     }
 
     .resurs__contacts__mobil_item1 {
