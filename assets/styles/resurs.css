@@ -233,9 +233,9 @@
         display: grid;
         grid-template-columns: repeat(3, 30%);
         grid-template-rows: repeat(2, 40%);
-        column-gap: 10%;
+        column-gap: 5%;
         row-gap: 20%;
-        justify-content: start;
+        justify-items: center;
         margin: 5%;
         padding-bottom:5vh;
     }
